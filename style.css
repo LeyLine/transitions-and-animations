@@ -1,4 +1,4 @@
-.box {
+/* .box {
   display: block;
   width: 100px;
   height: 100px;
@@ -9,7 +9,7 @@
   background-color: #00D1AE;
   width: 200px;
   height: 200px;
-  transition: width 2s ease-in 1s, height 4s, background-color 6s;
+  transition: width 2s ease-in 1s, height 4s, background-color 6s, transform 2s;;
 }
 
 p {
@@ -58,4 +58,32 @@ p {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.container {
+  margin: 20px 0 0 20px;
+  display: inline-block;
+} */
+
+.circle {
+  background: #456789;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  float: left;
+}
+.square {
+  background: #456789;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  float: left;
+}
+.triangle {
+  margin: 10px;
+  float: left;
+  border-style: solid;
+  border-color: transparent transparent #456789 transparent;
+  border-width: 0 20px 30px 20px;
 }
