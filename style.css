@@ -1,19 +1,15 @@
-
- .box {
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #3838FF;
+.box {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #3838FF;
 }
 
 .box:hover {
-    background-color: #00D1AE;
-    width: 200px;
-    height: 200px;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function:linear;
-    transition-delay: 1s;
+  background-color: #00D1AE;
+  width: 200px;
+  height: 200px;
+  transition: width 2s ease-in 1s, height 4s, background-color 6s;
 }
 
 p {
@@ -21,13 +17,11 @@ p {
   font-family: Arial;
 }
 
-
-
- .container {
+.container {
   animation-name: myslidein;
   animation-duration: 3s;
-
 }
+
 .hexagon {
   position: relative;
   width: 100px;
@@ -36,8 +30,7 @@ p {
   margin: 28.87px 0;
 }
 
-.hexagon:before,
-.hexagon:after {
+.hexagon:before, .hexagon:after {
   content: "";
   position: absolute;
   width: 0;
@@ -61,7 +54,6 @@ p {
     margin-left: 100%;
     width: 300%;
   }
-
   100% {
     margin-left: 0%;
     width: 100%;
