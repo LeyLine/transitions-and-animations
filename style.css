@@ -61,6 +61,7 @@ p {
 }
 */
 .container {
+  width: 30%;
   margin: 20px 0 0 20px;
   display: inline-block;
 }
@@ -77,6 +78,10 @@ p {
   float: left;
 }
 .square {
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
   background: #456789;
   height: 30px;
   width: 30px;
@@ -100,5 +105,17 @@ p {
   }
   100% {
     margin-top: 7%;
+  }
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 6%;
+  }
+  50% {
+    margin-left: 33%;
+  }
+  100% {
+    margin-left: 6%;
   }
 }
