@@ -95,8 +95,10 @@ p {
   0% {
     margin-top: 7%;
   }
-
-  100% {
+  50% {
     margin-top: -20%;
+  }
+  100% {
+    margin-top: 7%;
   }
 }
